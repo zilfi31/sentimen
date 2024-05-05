@@ -7,7 +7,7 @@ model =  joblib.load("naive_bayes.joblib")
 vectorizer = joblib.load("vectorizer.joblib")
 
 st.title("Sentimen Analisis Twitter Dataset")
-st.write("Sentimen Analisis dengan menggunakan dataset twwitter Pemilu tahun 2024")
+st.write("Sentimen Analisis dengan menggunakan dataset twitter Pemilu tahun 2024")
 
 
 with st.container():
